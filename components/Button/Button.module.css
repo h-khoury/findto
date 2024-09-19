@@ -1,0 +1,18 @@
+.button {
+  display: inline-flex;
+  margin: 0.5rem 0 0;
+  width: auto;
+  padding: 0 2.8rem;
+  height: var(--size-big);
+  color: var(--color-black);
+  font-size: var(--font-size-big);
+  border: none;
+  border-radius: var(--radius-full);
+  transition: var(--transition);
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--box-shadow);
+}

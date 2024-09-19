@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  position: relative;
+  padding: 0 2rem;
+  color: var(--color-white);
+  background: var(--color-black);
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-size: var(--font-size);
+  height: var(--size-big);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.button:hover,
+.button:focus {
+  background: var(--color-white);
+  color: var(--color-black);
+  box-shadow: var(--box-shadow);
+}
+.button:hover svg,
+.button:focus svg {
+  color: var(--color-black);
+}
+.button svg {
+  color: var(--color-white);
+  width: 20px;
+  height: 20px;
+}

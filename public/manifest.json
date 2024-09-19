@@ -1,0 +1,138 @@
+{
+  "name": "Findto",
+  "short_name": "Findto",
+  "description": "Decentralized Search on Web and AI",
+  "start_url": "/?utm_source=pwa",
+  "id": "/?utm_source=pwa",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-1024x1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-1024x1024-maskable.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-1.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-2.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-3.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/mobile-4.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshots/desktop-1.png",
+      "sizes": "2880x1453",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/desktop-2.png",
+      "sizes": "2880x1453",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Web",
+      "url": "/?view=Web",
+      "description": "Web search"
+    },
+    {
+      "name": "AI",
+      "url": "/?view=AI",
+      "description": "AI search"
+    },
+    {
+      "name": "Social",
+      "url": "/?view=Social",
+      "description": "Social search"
+    },
+    {
+      "name": "Videos",
+      "url": "/?view=Videos",
+      "description": "Videos search"
+    },
+    {
+      "name": "Music",
+      "url": "/?view=Music",
+      "description": "Music search"
+    },
+    {
+      "name": "Shopping",
+      "url": "/?view=Shopping",
+      "description": "Shopping search"
+    },
+    {
+      "name": "Local",
+      "url": "/?view=Local",
+      "description": "Local search"
+    },
+    {
+      "name": "News",
+      "url": "/?view=News",
+      "description": "News search"
+    },
+    {
+      "name": "Academic",
+      "url": "/?view=Academic",
+      "description": "Academic search"
+    },
+    {
+      "name": "Job",
+      "url": "/?view=Job",
+      "description": "Job search"
+    }
+  ]
+}
